@@ -62,6 +62,10 @@ If you need a SQL refresher, visit the [SQL Start Guide](./README.md).
    WHERE LEFT(FirstName, 1) = 'A'
    ORDER BY FirstName DESC
    ```
+Tony Proposed Solution:
+SELECT * FROM Employees
+WHERE FirstName = 'A%'
+ORDER BY FirstName DESC
 
    Solution #2
 
