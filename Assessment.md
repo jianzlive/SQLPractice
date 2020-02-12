@@ -167,6 +167,12 @@ If you need a SQL refresher, visit the [SQL Start Guide](./README.md).
    SELECT * , Quantity * Price AS Total 
    From OrderDetails, Products 
    WHERE Products.ProductID = OrderDetails.ProductID
+   
+   OR
+   
+   SELECT * , Quantity * Price AS Total 
+   From Orderdetails 
+   JOIN Products ON Products.ProductID = OrderDetails.ProductID
    ```
 
    </details>
