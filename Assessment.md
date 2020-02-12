@@ -155,6 +155,10 @@ If you need a SQL refresher, visit the [SQL Start Guide](./README.md).
 ## Join Queries
 
 1. Query all OrderDetails along with ProductName & Price and return (Quantity \* Price) under new calculated field, Total
+Tony Solution
+SELECT * , Quantity * Price AS Total 
+From OrderDetails, Products 
+WHERE Products.ProductID = OrderDetails.ProductID
 
 2. Query all Orders details along with Customer Name & Employee FirstName & LastName as new calculated field, EmployeeName
 
