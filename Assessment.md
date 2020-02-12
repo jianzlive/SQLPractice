@@ -172,9 +172,6 @@ If you need a SQL refresher, visit the [SQL Start Guide](./README.md).
    </details>
 
 
-Tony Solution
-
-
 2. Query all Orders details along with Customer Name & Employee FirstName & LastName as new calculated field, EmployeeName
 
 3. Query all Shippers details and return the total number of Products shipped under new calculated field, TotalShippedProducts
