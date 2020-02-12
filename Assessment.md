@@ -61,6 +61,11 @@ If you need a SQL refresher, visit the [SQL Start Guide](./README.md).
    SELECT * FROM Employees
    WHERE LEFT(FirstName, 1) = 'A'
    ORDER BY FirstName DESC
+   
+   The two solutions does not run. Use this one instead - Tony
+   SELECT * FROM Employees
+   WHERE FirstName LIKE 'A%'
+   ORDER BY FirstName DESC
    ```
 
    Solution #2
